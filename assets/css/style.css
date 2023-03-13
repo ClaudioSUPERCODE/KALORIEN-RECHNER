@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(116, 236, 186);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h2, h3, h4, h5 {
+    font-size: 2rem;
+    color: rgb(253, 33, 99);
+    padding: 0.2rem 0;
+    font-weight: lighters;
+}
+
+label {
+    color: azure;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.wrapper2 {
+    margin-bottom: 2rem;
+}
+
+.list {
+    width: 30rem;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(116, 236, 186);
+    border-style: none;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 31rem;
+    background: rgb(43,23,98);
+    background: radial-gradient(circle, rgba(43,23,98,1) 64%, rgba(0,0,0,1) 100%);
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 30.5rem;
+}
